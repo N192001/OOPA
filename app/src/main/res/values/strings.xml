@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Food Order and Take away</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_ongoing_order">Ongoing</string>
+    <string name="title_new_order">New</string>
+    <string name="title_complete_order">Complete</string>
+    <string name="txt_customername">txt_customername</string>
+    <string name="total">Total :</string>
+    <string name="txt_no_lead">No new Order</string>
+    <string name="txt_setting">Set up</string>
+    <string name="title_activity_test_bottom">TestBottom</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_setting">Printer Setting</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtregistershopcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopcode"
+            android:textColor="@color/colorQuantamorange"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="153dp"
+            android:layout_gravity="top|center"
+            android:src="@drawable/foodicn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-thin"
+            android:text="Register login here"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="28sp" />
+
+        <!-- <EditText
+             android:id="@+id/txtshopcode"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="S011"
+             android:inputType="textPersonName"
+             android:textAllCaps="true"
+             android:text=""
+             android:textColor="@color/white"
+             android:textColorHint="@color/white" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtusername"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="EmailID"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/blue" />
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/email1" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtpassword"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/blue" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/eye" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtpasswordconfirm"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="confirm password"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/blue" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/eye" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="750px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rect_round_green"
+        android:padding="16dp"
+        android:text="Register"
+        android:textColor="@color/colorQuantamorange"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note for password :"
+            android:textColor="@color/colorQuantamorange"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password must all from following \ncontain Capital letter\nSpecial character\nNumber digit\nSmall character"
+            android:textColor="@color/colorQuantamorange"
+            android:textSize="@dimen/_12ssp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

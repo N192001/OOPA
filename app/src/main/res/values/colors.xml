@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--<color name="colorPrimary">#7c2a86</color>
+    <color name="colorPrimaryDark">#4b1851</color>
+    <color name="colorAccent">#ffffff</color>
+-->
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#d6d6d6</color>
+    <color name="colorQuantamorange">#ff9800</color>
+    <color name="colorSecondary">#646464</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#d7d7d7</color>
+    <color name="colorLightGray">#eeeeee</color>
+    <color name="colorDarkGray">#646464</color>
+    <color name="colorGray_light">#CDCDCD</color>
+    <color name="colorYellow">#FFFFC107</color>
+    <color name="colorOrange">#FFFFC107</color>
+    <color name="colorGreyLight">#4DCCCCCC</color>
+    <color name="colorMayaBlue">#FFFFFF</color>
+    <color name="colorRed">#FFE61212</color>
+    <color name="colormainbgorange">#f05b23</color>
+    <color name="transparent_blue">#322100c8</color>
+    <color name="fb_blue">#3b5998</color>
+    <color name="blue">#5083ED</color>
+    <color name="google_box_stroke">#EAEAEA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#009688</color>
+    <color name="disabletextcolor">#808080</color>
+</resources>
